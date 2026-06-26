@@ -1,0 +1,115 @@
+/*
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+#ifndef RESOURCE_TABLE_H
+#define RESOURCE_TABLE_H
+
+#include<stdint.h>
+
+namespace OHOS {
+const int32_t STRING_ENTRYABILITY_DESC = 0x01000002;
+const int32_t STRING_ENTRYABILITY_LABEL = 0x01000003;
+const int32_t STRING_ADD_TO_CART = 0x01000004;
+const int32_t STRING_ALPHABETICAL = 0x01000005;
+const int32_t STRING_ANDROID_FAVORITES = 0x01000006;
+const int32_t STRING_APP_NAME = 0x01000000;
+const int32_t STRING_CART_CHECKOUT = 0x01000007;
+const int32_t STRING_CART_DECREASE_ERROR = 0x01000008;
+const int32_t STRING_CART_INCREASE_ERROR = 0x01000009;
+const int32_t STRING_CART_ORDER_COUNT_ONE = 0x0100000a;
+const int32_t STRING_CART_ORDER_COUNT_OTHER = 0x0100000b;
+const int32_t STRING_CART_ORDER_HEADER = 0x0100000c;
+const int32_t STRING_CART_SHIPPING_LABEL = 0x0100000d;
+const int32_t STRING_CART_SUBTOTAL_LABEL = 0x0100000e;
+const int32_t STRING_CART_SUMMARY_HEADER = 0x0100000f;
+const int32_t STRING_CART_TOTAL_LABEL = 0x01000010;
+const int32_t STRING_CATEGORY = 0x01000011;
+const int32_t STRING_CLOSE = 0x01000012;
+const int32_t STRING_DETAIL_HEADER = 0x01000013;
+const int32_t STRING_DETAIL_PLACEHOLDER = 0x01000014;
+const int32_t STRING_GRAB_BEVERAGE = 0x01000015;
+const int32_t STRING_HOME_CART = 0x01000016;
+const int32_t STRING_HOME_FEED = 0x01000017;
+const int32_t STRING_HOME_PROFILE = 0x01000018;
+const int32_t STRING_HOME_SEARCH = 0x01000019;
+const int32_t STRING_INGREDIENTS = 0x0100001a;
+const int32_t STRING_INGREDIENTS_LIST = 0x0100001b;
+const int32_t STRING_LABEL_ADD = 0x0100001c;
+const int32_t STRING_LABEL_BACK = 0x0100001d;
+const int32_t STRING_LABEL_DECREASE = 0x0100001e;
+const int32_t STRING_LABEL_FILTERS = 0x0100001f;
+const int32_t STRING_LABEL_INCREASE = 0x01000020;
+const int32_t STRING_LABEL_REMOVE = 0x01000021;
+const int32_t STRING_LABEL_SEARCH = 0x01000022;
+const int32_t STRING_LABEL_SELECT_DELIVERY = 0x01000023;
+const int32_t STRING_LIFESTYLE = 0x01000024;
+const int32_t STRING_MAX_CALORIES = 0x01000025;
+const int32_t STRING_MODULE_DESC = 0x01000026;
+const int32_t STRING_PER_SERVING = 0x01000027;
+const int32_t STRING_PRICE = 0x01000028;
+const int32_t STRING_QUANTITY = 0x01000029;
+const int32_t STRING_RATING = 0x0100002a;
+const int32_t STRING_REMOVE_ITEM = 0x0100002b;
+const int32_t STRING_RESET = 0x0100002c;
+const int32_t STRING_SEARCH_COUNT = 0x0100002d;
+const int32_t STRING_SEARCH_JETSNACK = 0x0100002e;
+const int32_t STRING_SEARCH_NO_MATCHES = 0x0100002f;
+const int32_t STRING_SEARCH_NO_MATCHES_RETRY = 0x01000030;
+const int32_t STRING_SEE_LESS = 0x01000031;
+const int32_t STRING_SEE_MORE = 0x01000032;
+const int32_t STRING_SORT = 0x01000033;
+const int32_t STRING_WORK_IN_PROGRESS = 0x01000034;
+const int32_t COLOR_START_WINDOW_BACKGROUND = 0x01000035;
+const int32_t COLOR_START_WINDOW_BACKGROUND_DARK = 0x01000036;
+const int32_t MEDIA_ALMONDS = 0x01000037;
+const int32_t MEDIA_APP_ICON = 0x01000001;
+const int32_t MEDIA_APPLE_CHIPS = 0x01000038;
+const int32_t MEDIA_APPLE_JUICE = 0x01000039;
+const int32_t MEDIA_APPLE_PIE = 0x0100003a;
+const int32_t MEDIA_APPLE_SAUCE = 0x0100003b;
+const int32_t MEDIA_APPLES = 0x0100003c;
+const int32_t MEDIA_CHEESE = 0x0100003d;
+const int32_t MEDIA_CHIPS = 0x0100003e;
+const int32_t MEDIA_CUPCAKE = 0x0100003f;
+const int32_t MEDIA_DESSERTS = 0x01000040;
+const int32_t MEDIA_DONUT = 0x01000041;
+const int32_t MEDIA_ECLAIR = 0x01000042;
+const int32_t MEDIA_FROYO = 0x01000043;
+const int32_t MEDIA_FRUIT = 0x01000044;
+const int32_t MEDIA_GINGERBREAD = 0x01000045;
+const int32_t MEDIA_GLUTEN_FREE = 0x01000046;
+const int32_t MEDIA_GRAPES = 0x01000047;
+const int32_t MEDIA_HONEYCOMB = 0x01000048;
+const int32_t MEDIA_ICE_CREAM_SANDWICH = 0x01000049;
+const int32_t MEDIA_JELLY_BEAN = 0x0100004a;
+const int32_t MEDIA_KITKAT = 0x0100004b;
+const int32_t MEDIA_KIWI = 0x0100004c;
+const int32_t MEDIA_LOLLIPOP = 0x0100004d;
+const int32_t MEDIA_MANGO = 0x0100004e;
+const int32_t MEDIA_MARSHMALLOW = 0x0100004f;
+const int32_t MEDIA_NOUGAT = 0x01000050;
+const int32_t MEDIA_NUTS = 0x01000051;
+const int32_t MEDIA_OREO = 0x01000052;
+const int32_t MEDIA_ORGANIC = 0x01000053;
+const int32_t MEDIA_PALEO = 0x01000054;
+const int32_t MEDIA_PIE = 0x01000055;
+const int32_t MEDIA_PLACEHOLDER = 0x01000056;
+const int32_t MEDIA_POPCORN = 0x01000057;
+const int32_t MEDIA_PRETZELS = 0x01000058;
+const int32_t MEDIA_SMOOTHIES = 0x01000059;
+const int32_t MEDIA_VEGAN = 0x0100005a;
+const int32_t PROFILE_MAIN_PAGES = 0x0100005b;
+}
+#endif

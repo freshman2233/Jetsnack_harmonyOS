@@ -1,0 +1,6 @@
+{
+  "modelVersion": "5.0.0",
+  "dependencies": {
+    "@ohos/hvigor-ohos-plugin": "file://D:/Software/Huawei/DevEcoStudio/tools/hvigor/hvigor-ohos-plugin"
+  }
+}
